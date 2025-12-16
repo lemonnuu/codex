@@ -9,8 +9,8 @@ export default defineConfig({
   logo: '/logo.svg',
   logoText: 'Codex Blog',
 
-  // 根目录配置
-  root: path.join(__dirname, 'src'),
+  // 根目录配置 - 文档放在 docs 目录
+  root: path.join(__dirname, 'docs'),
 
   // 路由配置
   route: {
@@ -42,13 +42,8 @@ export default defineConfig({
     // 上次更新时间
     lastUpdated: true,
 
-    // 编辑链接
-    editLink: {
-      docRepoBaseUrl: 'https://github.com/your-repo/codex/tree/main/apps/blog/src',
-    },
-
-    // 搜索配置
-    search: true,
+    // 启用文档上的滚动到顶部按钮
+    enableScrollToTop: true,
   },
 
   // 构建配置

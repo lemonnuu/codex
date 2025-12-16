@@ -8,6 +8,6 @@
       "@codex/*": ["../../packages/*/src"]
     }
   },
-  "include": ["src", "rspress.config.ts", "env.d.ts"],
+  "include": ["src", "docs", "rspress.config.ts", "env.d.ts"],
   "exclude": ["node_modules", "doc_build", ".rspress"]
 }
